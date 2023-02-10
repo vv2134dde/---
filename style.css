@@ -1,0 +1,140 @@
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background: rgb(241, 229, 248);
+    width: 800px;
+    min-height: 500px;
+    border: 10px solid rgb(199, 150, 248);
+    margin: 10px auto;
+    background: rgb(228, 208, 249);
+}
+
+.container_nav {
+    padding: 10px;
+    width: 70%;
+    border-width: 5px;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header_1 {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+}
+
+.title {
+    font-family: 'Playfair Display', Arial, Helvetica, serif;
+}
+
+.title-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 30px;
+    background: url(3.png) no-repeat center center / cover;
+    color: #fff;
+    margin: 5px;
+    padding: 0px 0px 5px;
+}
+
+.userpic {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    background: url(1.png);
+    margin: 5px;
+    padding: 0px 0px 5px;
+}
+
+.nav ul {
+    display: flex;
+    background: rgb(205, 204, 204);
+    margin: 10px 0;
+}
+
+.button {
+    display: flex;
+    background: rgb(205, 204, 204);
+    margin: 10px 0;
+}
+
+.nav li a {
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: #404040;
+    font-weight: bold;
+    border-right: 1px solid #d1d1d1;
+}
+
+.nav li a:hover {
+    background: rgb(151, 150, 150);
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    min-height: 500px;
+}
+
+.content {
+    padding: 20px;
+    width: 70%;
+    color: #000000;
+}
+
+
+.sidebar {
+    padding: 20px;
+    width: 30%;
+    border-width: 3px;
+}
+    
+.sidebar_header{
+    font-family: 'Playfair Display', Arial, Helvetica, serif;
+}
+
+.footer {
+    display: flex;
+    padding: 20px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-width: 3px;
+    border-style: double;
+    border-color: black;
+    
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.container_footer{
+    display: flex;
+    gap: 10px;
+}
+
+#about {
+    color: rgb(118, 0, 235);
+    
+    font-family: 'Playfair Display', Arial, Helvetica, serif;
+}
+
+#Образование {
+    color: rgb(118, 0, 235);
+    font-family: 'Playfair Display', Arial, Helvetica, serif;
+}
+
+#Опытработы {
+    color: rgb(118, 0, 235);
+    font-family: 'Playfair Display', Arial, Helvetica, serif;
+}
+
+#Хобби {
+    color: rgb(118, 0, 235);
+    font-family: 'Playfair Display', Arial, Helvetica, serif;
+}
